@@ -1,0 +1,8 @@
+<form action="/magic_8">
+	<input type="text" name="question" placeholder="Enter a question">
+	<button>Submit</button>
+</form>
+
+<% if @question %>
+<p>Answer: <%= @answer %></p>
+<% end %>
